@@ -1,8 +1,16 @@
 aid: outschool
 name: Outschool
-description: 'Outschool is a company surfaced as a portfolio company of bond-capital, lightspeed-venture-partners,
-  union-square-ventures, y-combinator and added to the API Evangelist network as a stub for enrichment.
-  Sector: edtech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Outschool is an education-technology marketplace for live, small-group
+  online classes for learners ages 3-18. It connects families and independent teachers
+  across 140,000+ subjects — from math and coding to art, music, and hobbies — offered
+  as one-time sessions, ongoing courses, camps, and social clubs delivered over live
+  video. Outschool also serves schools and districts through its for-organizations
+  program. Backed by Bond Capital, Lightspeed Venture Partners, Union Square Ventures,
+  and Y Combinator, the platform is a consumer web application; it exposes no publicly
+  documented developer API. The site is powered by an internal, undocumented GraphQL
+  endpoint (outschool.com/graphql) used only by its own front end and largely blocked
+  to crawlers. This profile is an API Evangelist network company record enriched from
+  the provider''s public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/outschool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +21,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static2.outschool.com/master/public/images/OS_Favicon_32px.75e56fd0248e0ab17d2405baba9a49df.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Edtech
+- Online Learning
+- Education
+- Marketplace
+- Kids
+- K-12
+- Homeschool
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://outschool.com
+- type: SignUp
+  url: https://outschool.com/users/signup
+- type: Login
+  url: https://outschool.com/users/login
+- type: TermsOfService
+  url: https://outschool.com/pages/terms
+- type: PrivacyPolicy
+  url: https://outschool.com/privacy
+- type: Support
+  url: https://support.outschool.com/
+- type: Blog
+  url: https://outschool.com/blog
+- type: TrustCenter
+  url: https://outschool.com/trust
+- type: DomainSecurity
+  url: security/outschool-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
