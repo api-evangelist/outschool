@@ -33,7 +33,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://static2.outschool.com/master/public/images/OS_Favicon_32px.75e56fd0248e0ab17d2405baba9a49df.svg
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
